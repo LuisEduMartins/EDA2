@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1688340023 source:c:\users\narut\onedrive\documentos\criações ed\trabalho2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"heap.h"
+
+1688932877 c:\users\narut\onedrive\documentos\criações ed\trabalho2\heap.h
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+
+1688947860 source:c:\users\narut\onedrive\documentos\criações ed\trabalho2\heap.c
+	"heap.h"
+	<time.h>
+
