@@ -33,7 +33,7 @@ void menu(){
         puts("\n\t\t\t\tLANCHONETE\n");
         puts("\t1 - ABERTURA DAS ATIVIDADES DA LANCHONETE\n\t2 - CHEGADA DE UM NOVO CLIENTE\n\t3 - REGISTRAR PEDIDO\n\t4 - PAGAMENTO DE UM PEDIDO\n\t5 - ABERTURA OU FECHAMENTO DE UM CAIXA DE COMPRA\n\t6 - CONCLUSAO DE UM PEDIDO NA COZINHA\n\t7 - FECHAMENTO DAS ATIVIDADES DA LANCHONETE");
         printf("\nINFORME SUA OPCAO:\n");
-        scanf("%d", &op);//Escolha da Opção
+        scanf("%d", &op);//Escolha da OpÃ§Ã£o
 
         switch(op)
         {
@@ -303,12 +303,12 @@ void menu(){
                     caixas=caixas+2;
                     if(caixa[caixas].n!=NULL)
                     {
-                        printf("O caixa %d foi fechado, os pedidos que ainda nao foram pagos foram movidos para o caixa %d\n", caixa[contas-2].n,caixa[contas].n );
+                        printf("O caixa %d foi fechado, os pedidos foram movidos para o caixa %d\n", caixa[contas-2].n,caixa[contas].n );
                         imprime(h2);
                     }else
                     {
                         contas+=2;
-                        printf("O caixa %d foi fechado, os pedidos que ainda nao foram pagos foram movidos para o caixa %d\n", caixa[contas-4].n,caixa[contas].n );
+                        printf("O caixa %d foi fechado, os pedidos foram movidos para o caixa %d\n", caixa[contas-4].n,caixa[contas].n );
                         imprime(h2);
                     }caixa[caixaremover-1].contagem==1;
                     break;
